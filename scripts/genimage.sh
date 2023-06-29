@@ -114,9 +114,7 @@ mv ${WORK_DIR}/userdata.img ${WORK_DIR}/target/data/userdata.img
 apt update
 apt install wget -y
 wget https://github.com/Sexynos/droidian-kernel-samsung-exynos9810/releases/download/crownlte/boot-crownlte.img
-wget https://github.com/Sexynos/droidian-kernel-samsung-exynos9810/releases/download/crownlte/recovery.img
 cp ./boot-crownlte.img ${WORK_DIR}/target/data/boot.img
-cp ./recovery.img ${WORK_DIR}/target/data/recovery.img
 
 # generate zip
 echo "Generating zip"
